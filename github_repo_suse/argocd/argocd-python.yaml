@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: argocd/python-manifests
+    path: github_repo_suse/argocd/python-manifests
     repoURL: https://github.com/criticalhitx/SUSE_LAB 
     targetRevision: HEAD
   syncPolicy: {}
