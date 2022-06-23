@@ -12,8 +12,8 @@ spec:
       app: python-helloworld
   strategy:
     rollingUpdate:
-      maxSurge: 50%
-      maxUnavailable: 50%
+      maxSurge: 30%
+      maxUnavailable: 30%
     type: RollingUpdate
   template:
     metadata:
